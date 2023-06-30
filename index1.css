@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #342c3c;
+    height: 100vh;
+}
+img{
+    margin-right: 8px;
+}
+h3{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    background-color: #302938;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Montserrat",sans-serif;
+    color: white;
+    padding:40px 0;
+    margin-top: 175px;
+}
+.login-card{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.login-cards{
+    background-color:#352E3d;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: 15px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-email{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login-pawd{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 20px;
+    background-color: #352E3d;
+    padding: 15px 25px;
+    width: 300px;
+    border-style: none;
+    color: white;
+}
+button{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #8e80f5;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+
+}
+.sign-up{
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+.color{
+    margin-left:7px;
+    color: #8e80f5;
+}
+
